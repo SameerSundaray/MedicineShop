@@ -1,0 +1,51 @@
+/* Cart Icon */
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999; /* Ensure it's on top of other content */
+    display: flex;
+    align-items: center;
+}
+
+.cart-count {
+    margin-left: 5px;
+}
+
+/* Cart Modal Overlay */
+.cart-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1000; /* Ensures the overlay is above other content */
+    display: flex; /* Flex container to center the modal vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cart Modal */
+.cart-modal {
+    background-color: white; /* White background for the modal */
+    padding: 20px; /* Padding around the modal content */
+    border-radius: 8px; /* Rounded corners for the modal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect for the modal */
+    z-index: 1001; /* Ensures the modal is above the overlay */
+}
+
+.cart-details {
+    margin-bottom: 20px; /* Add some space between details and close button */
+}
+
+.cart-close {
+    cursor: pointer; /* Change cursor to pointer on hover for close button */
+}
+
+

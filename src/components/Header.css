@@ -1,0 +1,10 @@
+.header {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+}
